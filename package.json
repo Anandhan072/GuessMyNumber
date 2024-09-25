@@ -1,0 +1,21 @@
+{
+  "name": "guess_number",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "startscss": "sass ./sass/main.scss ./style/style.css --watch",
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist",
+    "clear": "rm -rf .parcel-cache dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  },
+  "dependencies": {
+    "core-js": "^3.38.1",
+    "regenerator-runtime": "^0.14.1"
+  }
+}
